@@ -1,0 +1,143 @@
+*{
+    margin: 0%;
+}
+body{
+    background-color: white;
+   }
+img{
+    width: 24rem;
+    height: 10rem;
+    transition: width 50ms, height 50ms;
+}
+img:hover{
+    width: 26rem;
+    height: 11rem;
+}
+.para{
+    width:33rem;
+    font-size: 1.5rem;
+}
+div{
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+}
+
+h1{
+    text-align: center;
+}
+header{
+    border: 2px solid balck;
+}
+footer{
+    padding-right: 0%;
+    background-color:black;
+    color: white;
+    margin: 0px;
+    padding: 20px;
+    font-size: 1.4rem;
+    height: 200px;
+    text-align: center;
+    text-decoration-color: white;
+
+}
+h5{
+    margin-bottom: 0px;
+}
+a{
+    color: black;
+    transition: font-size 1s;
+}
+
+a:hover{
+    font-size: 1.5rem;
+    color:blueviolet;
+
+}
+form{
+    text-align: center;
+    padding: 3px;
+
+
+}
+input{
+    border: 2px solid black;
+    background-color:aquamarine;
+    padding: 2px;
+    size: 10px;
+    width: 15rem;
+    font-size: 2rem;
+
+}
+input:hover{
+    background-color:whitesmoke; 
+}
+textarea{
+    size: 1.25rem;
+    padding: 2px;
+    width:75%;
+    height:50%;
+    font-size: 1.4rem;
+    background-color:whitesmoke;
+    border-radius: 10px 60px 60px 60px ;
+}
+textarea:hover{
+    border: 2px solid black;
+}
+select{
+    width: 15rem;
+    height: 2rem;
+    padding: 2px;
+    margin:2px;
+    background-color:aqua;
+    border: 2px solid black;
+    font-size: 1.3rem;
+    border-radius: 25px;
+    
+}
+.btn{
+    border-radius: 25px;
+    background-color: aqua;
+}
+select:hover{
+    background-color: white;
+}
+main{
+    font-size: 1.4rem;
+}
+@media screen and (max-width:1000px) {
+    *{
+        align-content: center;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        justify-items: center;
+    }
+    div{
+        display: inline;
+    }
+    .para{
+        width:100%;
+    }
+    textarea{
+        align-items: center;
+        
+        display:flow-root;
+        height: 170px;
+    }
+    textarea:hover{
+        border: 2px solid black;
+    }
+    .img{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    }  
+    a:hover{
+        color: aquamarine;
+        font-size: 20px;
+    }
+    
+}
+
+
